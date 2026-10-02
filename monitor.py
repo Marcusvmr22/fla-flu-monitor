@@ -6,8 +6,8 @@ from playwright.sync_api import sync_playwright
 
 
 URL = "https://www.futebolcard.com/information?event=41427"
-INTERVALO = 30
-DURACAO = 240
+INTERVALO = 15
+DURACAO = 270
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
